@@ -18,4 +18,11 @@ client.on('message', msg => {
   }
 });
 
+
+client.on('message', msg => {
+  if (msg.content === '80jdfitmar') {
+    msg.reply('Old passcode - available.');
+  }
+});
+
 client.login(auth.token);
