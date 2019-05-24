@@ -1,17 +1,25 @@
 {
-  "name": "ADA",
-  "version": "0.0.1",
-  "description": "A Detection Algorithm, a sentient artificial intelligence designed to assist with Ingress Passcodes.",
+
+  "name": "Example",
+
+  "description": "Example",
+
+  "version": "0.0.0",
+
   "main": "bot.js",
-  "author": "oscarc1",
-  "dependencies": {
-    "discord.js": "^11.5.0",
-    "request": "2.81.0"
-  },
+
   "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node bot.js"
+
   },
-  "keywords": [],
-  "license": "ISC"
+
+  "dependencies": {
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
+  }
+
 }
