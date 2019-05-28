@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
+  if (msg.content.toUpperCase() === "ping"..toUpperCase()) {
     msg.reply('pong');
   }
 });
@@ -20,7 +20,7 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-  if (msg.content === '80jdfitmar') {
+  if (msg.content.toUpperCase() === "80jdfitmar".toUpperCase()) {
     msg.reply('Old passcode - available.');
   }
 });
