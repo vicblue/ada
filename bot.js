@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toUpperCase() === "ping"..toUpperCase()) {
+  if (msg.content.toUpperCase() === "ping".toUpperCase()) {
     msg.reply('pong');
   }
 });
