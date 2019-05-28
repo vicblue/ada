@@ -25,4 +25,5 @@ client.on('message', msg => {
   }
 });
 
-client.login(auth.token);
+// client.login(auth.token);
+client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
