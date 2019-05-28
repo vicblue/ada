@@ -13,7 +13,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toUpperCase() === 'armadilloliberate'.toUpperCase()) {
+  if (msg.content.toUpperCase() === "armadilloliberate".toUpperCase()) {
     msg.reply('Passcode is fully redeemed.');
   }
 });
